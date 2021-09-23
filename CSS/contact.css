@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.bg_image{
+    background-image: url(../Images/marguerite-729510__480.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:400px;
+   
+}
+.overlay{
+    background-color:#0000009e;
+    height: 100%;
+}
+.color_white{
+    color: white;
+}
+.flex{
+    display: flex;
+    
+
+}
+.width_li{
+    width: 40%;
+
+}
+.justify_content{
+        justify-content: space-between;
+    }
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 40%;
+}
+/* .divs_img{
+   width: 40px;
+   height: 20px;
+
+} */
+.i1{
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+.first_hr{
+    /* border: none; */
+    border-top: white;
+    margin-bottom: 325px;
+}
+span{
+    padding-right: 15px;
+      border: 2px solid gray;
+    border-radius: 5px;
+    
+}
+    
+.circle-num{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid;
+    line-height: 2.5;
+    border-color: blue;
+    border-left-color: white;
+}
+/* .cirlce-num :hover{
+    border-bottom-color: blue;
+} */
+.nav{
+    width: 100%;
+}
+
+.more{
+    border: none;
+}
+
+
+.left-aside{
+    width: 65%;
+    height: auto;
+    margin-top: 15px;
+}
+.right-aside{
+    width: 30%;
+    border-left: 1px solid lightgray;
+    margin-top: 15px;
+}
+.second-ul{
+    
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 60%;
+
+}
+.second-li:hover{
+    border-bottom: 2px solid blue;
+}
+.bg_img2{
+background-image: url(../Images/travel-world.jpg); 
+background-repeat: no-repeat;
+background-size: 100% 100%;
+height: 300px;
+}
+.left_div{
+    width: 45%;
+    height: 30%;
+    
+}
+.btn{
+    margin-top: 25px;
+    margin-left: 21px;
+    padding: 4px 3px;
+}
+.third_p{
+    padding-top: 20px;
+}
+.color_lightgray{
+    color: lightgray;
+}
+.right_div{
+    width: 45%;
+    height: 30%;
+  
+
+}
+.div_img{
+    width: 35%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.width{
+    width:70%;
+    height: 100px;
+    padding-left: 8px;
+}
+.div_border{
+    border: 1px solid lightgray;
+    
+}
+i{
+ width: 20px;
+}
+.margin_top{
+    margin-top: 8px;
+}
+.div_margin{
+    margin-top: 9px;
+}
+.left_bg{
+    background-image: url(../Images/image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+}
+
+.padding_top{
+    padding-top: 10px;
+}
+.right_bg{
+    background-image: url(../Images/Travel_Insights_with_Google_Hero_Image_1.max-1000x1000.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+}
+.lorem_p{
+    padding: 21px;
+}
+h1{
+    padding: 3px;
+}
+.icons{
+    margin: 30px;
+    
+}
+.icons i{
+    color: #d3d3d3;
+    margin-left: 17px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2 !important;
+    border-color: lightgray;
+    
+}
+h1{
+    margin-left: 15px;
+}
+.div_todayimg{
+    width: 70%;
+    
+}
+#today_image{
+    width: 100%;
+    height: 200px;
+    margin: 40px;
+}
+.today_p{
+    padding-left: 40px;
+}
+.first_card{
+    width: 300px;
+    background-image: url(../Images/download\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 150px;
+}
+.firstcard_btn{
+   margin-top: 20px;
+   margin-left: 40%;
+}
+.firstcard_p{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    margin: 0px 10px 
+}
+.second_card{
+    width: 300px;
+    background-image: url('../Images/GettyImages-1155747197-scaled.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 150px;
+}
+.third_card{
+    width: 300px;
+    background-image: url('../Images/download\ \(4\).jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 150px;
+}
+.three_cards{ 
+    margin-top: 40px;
+}
+.aside_h1{
+    margin-left: 0;
+}
+.aside_image{
+    width: 225px;
+    height: 165px;
+}
+.aside_lorem{
+    margin-left: 15px;
+}
+.aside_p{
+    padding-top: 10px;
+}
+.aside_p2{
+    padding-top: 50px;
+}
+.box_shadow{
+    border: 1px solid lightgray;
+    box-shadow: 2px 1px lightgrey;
+    margin-top: 2px;
+}
+.load_more{
+    border: 2px solid lightgray;
+    border-radius: 18px;
+    padding: 4px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+   
+.last_div{
+    background-color: black;
+    margin-top: 10px;
+}
+.padding_lastdiv{
+    padding-top: 65px;
+}
+.rightaside_bg{
+    background-image: url(../Images/8548cae8d0a4b4cdd4d0ff0f9855752a.jpg);
+    background-size: 100% 100%;
+    height: 160px;
+    padding-top:25px
+
+}
+.btn_displayblock{
+    display: block;
+    padding: 4px 3px;
+    margin-left: 26px;
+}
+.play{
+    margin-top: 50px;
+    padding-left: 160px;
+    font-size: 31px;
+    color: white;
+}
+.rightaside2_bg{
+    background-image: url(../Images/blue-sky-love-heart-shaped-fluffy-clouds-wide-background-various-one-large-cloud-formation-right-hand-side-43390834.jpg);
+    background-size: 100% 100%;
+    height: 160px;
+    padding-top:25px
+
+}
+.left_lastdiv{
+    width: 40%;
+    /* margin: 0px 75px; */
+}
+.p_padding{
+    padding-top: 20px;
+}
+.middle_lastdiv{
+    width: 22%;
+}
+.w_100{
+    width: 100%;
+
+}
+.right_lastdiv{
+    width: 20%;
+
+}
+.font_size{
+    font-size: 20px;
+
+}
+input{
+    margin-top: 13px;
+    border: 0;
+    border-bottom: 1px solid white;
+    background-color: black;
+    
+}
+.margin_left{
+    margin-left: 4px;
+}
+.margin_right{
+    margin-right: 4px;
+}
+.i_border{
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    color: lightgray;
+    border-color: lightgray;
+    
+}
